@@ -20,6 +20,12 @@
             max-width: 100%;
             height: auto;
         }
+        /* Add grid styles */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
     </style>
 </head>
 <body>
@@ -36,56 +42,56 @@
 <section id="thematic-areas">
     <h2>Thematic Areas</h2>
 
-    <h3>a. Healthcare Systems Modelling</h3>
-    <p>
-        Describe the focus of this thematic area and provide examples of projects.
-    </p>
-    <img src="path/to/healthcare_modelling_image.jpg" alt="Healthcare Systems Modelling">
+    <div class="grid-container">
+        <div>
+            <h3>a. Healthcare Systems Modelling</h3>
+            <p>
+                Describe the focus of this thematic area and provide examples of projects.
+            </p>
+            <img src="path/to/healthcare_modelling_image.jpg" alt="Healthcare Systems Modelling">
+            <p>Paper: <a href="link_to_paper1.pdf">Title of Paper 1</a></p>
+        </div>
 
-    <!-- Add paper links -->
-    <p>Paper: <a href="link_to_paper1.pdf">Title of Paper 1</a></p>
-    <p>Paper: <a href="link_to_paper2.pdf">Title of Paper 2</a></p>
+        <div>
+            <h3>b. Prediction Models for Clinical Decision Making</h3>
+            <p>
+                Highlight the projects related to prediction models in healthcare settings.
+            </p>
+            <img src="path/to/prediction_models_image.jpg" alt="Prediction Models for Clinical Decision Making">
+            <p>Paper: <a href="link_to_paper3.pdf">Title of Paper 3</a></p>
+        </div>
 
-    <h3>b. Prediction Models for Clinical Decision Making</h3>
-    <p>
-        Highlight the projects related to prediction models in healthcare settings.
-    </p>
-    <img src="path/to/prediction_models_image.jpg" alt="Prediction Models for Clinical Decision Making">
+        <!-- Add more thematic areas in a similar fashion -->
 
-    <!-- Add paper links -->
-    <p>Paper: <a href="link_to_paper3.pdf">Title of Paper 3</a></p>
-    <p>Paper: <a href="link_to_paper4.pdf">Title of Paper 4</a></p>
-
-    <!-- Repeat similar sections for other thematic areas -->
-
+    </div>
 </section>
 
 <!-- 3. Our Methods -->
 <section id="our-methods">
     <h2>Our Methods</h2>
 
-    <h3>a. Machine Learning</h3>
-    <p>
-        Briefly explain how machine learning is applied in your research.
-    </p>
-    <img src="path/to/machine_learning_image.jpg" alt="Machine Learning in Research">
+    <div class="grid-container">
+        <div>
+            <h3>a. Machine Learning</h3>
+            <p>
+                Briefly explain how machine learning is applied in your research.
+            </p>
+            <img src="path/to/machine_learning_image.jpg" alt="Machine Learning in Research">
+            <p>Paper: <a href="link_to_paper5.pdf">Title of Paper 5</a></p>
+        </div>
 
-    <!-- Add paper links -->
-    <p>Paper: <a href="link_to_paper5.pdf">Title of Paper 5</a></p>
-    <p>Paper: <a href="link_to_paper6.pdf">Title of Paper 6</a></p>
+        <div>
+            <h3>b. Deep Learning</h3>
+            <p>
+                Provide information on the use of deep learning in your research.
+            </p>
+            <img src="path/to/deep_learning_image.jpg" alt="Deep Learning in Research">
+            <p>Paper: <a href="link_to_paper7.pdf">Title of Paper 7</a></p>
+        </div>
 
-    <h3>b. Deep Learning</h3>
-    <p>
-        Provide information on the use of deep learning in your research.
-    </p>
-    <img src="path/to/deep_learning_image.jpg" alt="Deep Learning in Research">
+        <!-- Add more methods in a similar fashion -->
 
-    <!-- Add paper links -->
-    <p>Paper: <a href="link_to_paper7.pdf">Title of Paper 7</a></p>
-    <p>Paper: <a href="link_to_paper8.pdf">Title of Paper 8</a></p>
-
-    <!-- Repeat similar sections for other methods -->
-
+    </div>
 </section>
 
 <!-- 4. Want to Collaborate? -->
